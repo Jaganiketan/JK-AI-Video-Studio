@@ -1,10 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>JK AI Video Studio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JK AI Video Studio</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>JK AI Video Studio</h1>
-  <p>Version 0.1</p>
+
+<div class="container">
+
+<h1>🎬 JK AI Video Studio</h1>
+
+<p>Create AI Videos with One Click</p>
+
+<label>📝 Topic</label>
+<input type="text" id="topic" placeholder="Example: Friendly Dog">
+
+<label>📺 Aspect Ratio</label>
+<select id="ratio">
+<option>9:16 Shorts</option>
+<option>16:9 Long Video</option>
+<option>1:1 Square</option>
+<option>4:5 Portrait</option>
+</select>
+
+<label>🎥 Video Style</label>
+<select id="style">
+<option>Realistic</option>
+<option>Cartoon</option>
+<option>Anime</option>
+<option>Cinematic</option>
+<option>Documentary</option>
+</select>
+
+<label>🌍 Language</label>
+<select id="language">
+<option>Hindi</option>
+<option>English</option>
+<option>Gujarati</option>
+</select>
+
+<label>⏱ Duration</label>
+<select id="duration">
+<option>30 Seconds</option>
+<option>60 Seconds</option>
+<option>2 Minutes</option>
+<option>5 Minutes</option>
+<option>10 Minutes</option>
+<option>Custom</option>
+</select>
+
+<button id="generateBtn">
+Generate Script
+</button>
+
+</div>
+
+<script src="config.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
